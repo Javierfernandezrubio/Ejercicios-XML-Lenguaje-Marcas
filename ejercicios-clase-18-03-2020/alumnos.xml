@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<alumnos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="alumnos.xsd">
+  <alumno>
+    <nombre>Javier</nombre>
+    <ciclo>DAW</ciclo>
+  </alumno>
+  <alumno>
+    <nombre>Pablo</nombre>
+    <ciclo>ASIR</ciclo>
+  </alumno>
+  <alumno>
+    <nombre>Jose</nombre>
+    <ciclo>Cocina</ciclo>
+  </alumno>
+</alumnos>
