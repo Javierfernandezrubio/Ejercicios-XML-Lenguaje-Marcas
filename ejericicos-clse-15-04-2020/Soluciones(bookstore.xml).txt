@@ -1,0 +1,25 @@
+﻿    /bookstore/book/title
+<title lang="en">Everyday Italian</title>
+<title lang="en">Harry Potter</title>
+<title lang="en">XQuery Kick Start</title>
+<title lang="en">Learning XML</title>
+
+    /bookstore/book[1]/title
+<title lang="en">Everyday Italian</title>
+
+    /bookstore/book/price[text()]
+<price>30.00</price>
+<price>29.99</price>
+<price>49.99</price>
+<price>39.95</price>
+
+
+    /bookstore/book[price>35]/title
+<title lang="en">XQuery Kick Start</title>
+<title lang="en">Learning XML</title>
+
+
+    /bookstore/book[price>35]/title/text()
+XQuery Kick Start
+Learning XML
+

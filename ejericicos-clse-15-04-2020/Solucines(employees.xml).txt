@@ -1,0 +1,83 @@
+    //companies/*
+<company id="6">Tata Consultancy Services</company>
+<company id="7">Wipro</company>
+<company id="8">Infosys</company>
+<company id="9">Microsoft</company>
+<company id="10">IBM</company>
+<company id="11">Apple</company>
+<company id="12">Oracle</company>
+
+
+    //employee[@id=3]
+<employee id="3">Robert De Niro</employee>
+
+
+    //employee[@id]
+<employee id="1">Johnny Dapp</employee>
+<employee id="2">Al Pacino</employee>
+<employee id="3">Robert De Niro</employee>
+<employee id="4">Kevin Spacey</employee>
+<employee id="5">Denzel Washington</employee>
+
+
+    //employee[position()=1 or position()=2]
+<employee id="1">Johnny Dapp</employee>
+<employee id="2">Al Pacino</employee>
+
+
+
+    /root/employees/employee[last()]
+<employee id="5">Denzel Washington</employee>
+ 
+    /root/employees/employee[1]
+<employee id="1">Johnny Dapp</employee>
+
+ 
+    //company/@id
+ id="6"
+ id="7"
+ id="8"
+ id="9"
+ id="10"
+ id="11"
+ id="12"
+
+
+
+    //companies/company
+<company id="6">Tata Consultancy Services</company>
+<company id="7">Wipro</company>
+<company id="8">Infosys</company>
+<company id="9">Microsoft</company>
+<company id="10">IBM</company>
+<company id="11">Apple</company>
+<company id="12">Oracle</company>
+
+
+    /root/employees/employee
+<employee id="1">Johnny Dapp</employee>
+<employee id="2">Al Pacino</employee>
+<employee id="3">Robert De Niro</employee>
+<employee id="4">Kevin Spacey</employee>
+<employee id="5">Denzel Washington</employee>
+
+
+
+    //employee|//company
+<employee id="1">Johnny Dapp</employee>
+<employee id="2">Al Pacino</employee>
+<employee id="3">Robert De Niro</employee>
+<employee id="4">Kevin Spacey</employee>
+<employee id="5">Denzel Washington</employee>
+<company id="6">Tata Consultancy Services</company>
+<company id="7">Wipro</company>
+<company id="8">Infosys</company>
+<company id="9">Microsoft</company>
+<company id="10">IBM</company>
+<company id="11">Apple</company>
+<company id="12">Oracle</company>
+
+
+
+    count(//company)
+7
